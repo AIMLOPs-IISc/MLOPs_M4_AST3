@@ -8,7 +8,7 @@ ADD /titanic_model_api /titanic_model_api/
 WORKDIR /titanic_model_api
 
 # update pip
-RUN pip install --upgrade pip
+RUN pip install --upgrade pip 
 
 # install dependencies
 RUN pip install -r requirements.txt
